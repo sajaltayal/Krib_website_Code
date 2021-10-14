@@ -1,0 +1,118 @@
+
+.main_heading{
+
+    text-align: center;
+    color:rgb(241, 234, 234);
+    margin-bottom: 2%;
+    font-family: Lovelo-LineLight;
+}
+@font-face {
+    font-family: Lovelo-LineLight;
+    src: url(Lovelo-LineLight.ttf);
+  }
+  
+ 
+.main_para{
+    font-size:2.2rem;
+    word-spacing: 0.3rem;
+    color:rgb(241, 234, 234);
+    font-weight:100;
+    text-align: center;
+    letter-spacing:3px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+*{
+    padding:0;
+    margin:0;
+}
+.box{
+
+    height:100vh;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-image: linear-gradient(to bottom right, #181717,
+    #637281); */
+    background-image: linear-gradient(to bottom right,  #1f1f1f,
+    #29323c);
+  
+   
+}
+.main{
+    transform: translateY(-50%);
+}
+
+.shimmer {
+    
+    font-weight: 700;
+    font-size: 4.4em;
+    margin: 0 auto;
+    /* padding: 0 140px 0 0; */
+    /* display: inline; */
+    margin-bottom: 2%;
+}
+
+.shimmer {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.315);
+    background: -webkit-gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff));
+    background: -moz-gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff));
+    background: gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff));
+    -webkit-background-size: 125px 100%;
+    -moz-background-size: 125px 100%;
+    background-size: 125px 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-animation-name: shimmer;
+    -moz-animation-name: shimmer;
+    animation-name: shimmer;
+    -webkit-animation-duration: 1.5s;
+    -moz-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-color: #222;
+}
+
+@-moz-keyframes shimmer {
+    0% {
+            background-position: top left;
+    }
+    100% {
+            background-position: top right;
+    }
+}
+
+@-webkit-keyframes shimmer {
+    0% {
+            background-position: top left;
+    }
+    100% {
+            background-position: top right;
+    }
+}
+
+@-o-keyframes shimmer {
+    0% {
+            background-position: top left;
+    }
+    100% {
+            background-position: top right;
+    }
+}
+
+@keyframes shimmer {
+    0% {
+            background-position: top left;
+    }
+    100% {
+            background-position: top right;
+    }
+}
